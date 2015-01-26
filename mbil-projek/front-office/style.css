@@ -1,0 +1,291 @@
+a{
+color:black;
+text-decoration:none;
+}
+
+
+body {
+         margin:0;
+		 }
+
+#wrapper{
+         width:1366px;
+		 height:100%;
+		 margin:auto;
+		 }
+#kotak{
+          width:1366;
+		  height:80;
+		  background-image:url(../img/header.jpg);
+		  margin-left:0;
+		  }
+#kotak2{
+          width:324;
+		  height:425;
+		  background-image:url(../img/docter.png);
+		  margin-left:745;
+		  margin-top:30;
+		  }
+#kotak3{ 
+          width:310;
+		  height:400;
+		  background-color:#C3AF73;
+		  margin-left:400;
+		  margin-top:-400;
+		  border-radius:22px 22px 20px 20px;
+		  }
+#kotak4{
+         
+		  background-color:#9A8A55;
+		  padding-top:15;
+		  padding-bottom:15;
+		  border-radius:20px 20px 0px 0px;
+		  }
+#footer2{
+          width:1366;
+		  padding-top:12;
+		  padding-bottom:12;
+		  background: rgba(00,0,0,0.70);
+		  margin-top:89;
+		  color:#fff;
+		  }
+#menu{     width:350;
+           height:664;
+           background-color:#645947;		   
+}
+#logo{
+         width:350;
+		 height:80;
+		 background-image:url(../img/logo3.jpg);
+		 margin-top:-664;
+		 }
+.side ul{
+list-style:none;
+}
+.side li{
+font:15px comic sans ms;
+width:309;
+padding-top:20;
+padding-bottom:20;
+display:block;
+background-color:#645947;
+margin-top:0;
+margin-left:-39;
+padding-left:3%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+.side li:hover{
+background-color:c09d6b;
+}
+.side a{
+text-decoration:none;
+color:white;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out; 
+}
+side a:hover{
+color:white;
+}
+
+.kepala{
+width:600;
+height:60;
+background-color:;
+margin-top:-402;
+margin-left:380;
+font:43px rockwell;
+}
+#foto{
+width:50;
+height:50;
+background-image:url(../img/gboffice.png);
+background-color:#cc9342;
+margin-left:1000;
+margin-top:-80;
+}
+
+#foto2{
+width:100;
+height:100;
+background-image:url(../img/gboffice2.png);
+background-color:#cc9342;
+position:absolute;
+visibility:hidden;
+}
+
+#foto:hover > #foto2{
+visibility:visible;
+}
+
+#namauser{
+width:170;
+background-color:#cc9342;
+margin-top:-50;
+margin-left:1050;
+font:15pt rockwell;
+padding-top:13;
+padding-bottom:13;
+border:black;
+}
+#namauser:hover{
+width:170;
+background-color:#946b30;
+margin-top:-50;
+margin-left:1050;
+font:15pt rockwell;
+padding-top:13;
+padding-bottom:13;
+border:black;
+}
+#logout{
+width:120;
+background-color:#cc9342;
+padding-top:14.5;
+padding-bottom:14.5;
+margin-top:-53;
+margin-left:1220;
+font:15pt rockwell;
+}
+
+#logout:hover{
+width:120;
+background-color:#946b30;
+padding-top:14.5;
+padding-bottom:14.5;
+margin-top:-53;
+margin-left:1220;
+font:15pt rockwell;
+}
+#gambardokter{
+width:300;
+height:470;
+background-color:;
+margin-left:870;
+margin-top:40;
+background-image:url(../img/anak1.png);
+}
+#introduction{
+width:398;
+height:229;
+background-color:;
+margin-top:-360;
+margin-left:450;
+background-image:url(../img/perkenalan.png);
+}
+#copyright{
+width:350;
+padding-top:13;
+padding-bottom:13;
+background-color:#645947;
+margin-top:186;
+}
+#pendaftaran{
+width:1016;
+height:475;
+background-color:white	;
+margin-left:350;
+margin-top:65;
+}
+#gambardaftar{
+width:300;
+height:300;
+background-color:none;
+margin-top:-430;
+margin-left:560;
+position:absolute;
+}
+#hapus{
+padding-left:15;
+padding-right:15;
+padding-top:10;
+padding-bottom:10;
+background-color:#d69a37;
+border:transparent;
+margin-left:300;
+margin-top:-100;
+}
+#hapus:hover{
+padding-left:15;
+padding-right:15;
+padding-top:10;
+padding-bottom:10;
+background-color:#a96a03;
+margin-left:300;
+margin-top:-100;
+}
+
+#simpan{
+padding-left:10;
+padding-right:10;
+padding-top:10;
+padding-bottom:10;
+background-color:#d69a37;
+border:transparent;
+margin-top:-100;
+
+}
+#simpan:hover{
+padding-left:10;
+padding-right:10;
+padding-top:10;
+padding-bottom:10;
+background-color:#d69a37;
+border:transparent;
+margin-top:-100;
+
+
+}
+#cari{
+width:280;
+height:180;
+background-color:#acaaa8;
+margin-top:40;
+margin-left:50;
+border-radius:23px 23px 23px 23px;
+}
+#icon-cari{
+width:300;
+height:300;
+background-image:url(../img/cari.png);
+margin-left:485;
+margin-top:20;
+position:absolute;
+}
+#konten{
+width:400;
+height:425;
+background-color:none;
+margin-left:40;
+overflow:auto;
+}
+#footer{
+width:350;
+height:25;
+background-color:#645947;
+margin-top:185;
+font-family:segoe ui;
+font-size:10pt;
+position:absolute;
+color:white;
+}
+#date{
+width:240;
+height:40;
+background-color:none;
+margin-top:0;
+margin-left:640;
+font-size:17pt;
+font-family:georgia;
+}
+#pendaftaran2{
+width:1016;
+height:475;
+background-color:white	;
+margin-left:350;
+margin-top:25;
+}

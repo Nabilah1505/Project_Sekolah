@@ -1,0 +1,254 @@
+a{
+color:black;
+text-decoration:none;
+}
+
+
+body {
+         margin:0;
+		 }
+
+#wrapper{
+         width:1366px;
+		 height:100%;
+		 margin:auto;
+		 }
+#menu{     width:350;
+           height:664;
+           background-color:#645947;		   
+}
+#logo{
+         width:350;
+		 height:80;
+		 background-image:url(../img/logo3.jpg);
+		 margin-top:-664;
+		 }
+.side ul{
+list-style:none;
+}
+.side li{
+font:15px comic sans ms;
+width:309;
+padding-top:20;
+padding-bottom:20;
+display:block;
+background-color:##645947;
+margin-top:0;
+margin-left:-39;
+padding-left:3%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+.side li:hover{
+background-color:#c09d6b;
+}
+.side a{
+text-decoration:none;
+color:white;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out; 
+}
+
+
+.kepala{
+width:600;
+height:60;
+background-color:;
+margin-top:-340;
+margin-left:380;
+font:43px rockwell;
+}
+#foto{
+width:50;
+height:50;
+background-image:url(../img/bgdokter1.png);
+background-color:#cc9342;
+margin-left:1000;
+margin-top:-80;
+}
+
+#foto2{
+width:100;
+height:100;
+background-image:url(../img/bgdokter.png);
+background-color:#cc9342;
+position:absolute;
+visibility:hidden;
+}
+
+#foto:hover > #foto2{
+visibility:visible;
+}
+
+#namauser{
+width:170;
+background-color:#cc9342;
+margin-top:-50;
+margin-left:1050;
+font:15pt rockwell;
+padding-top:13;
+padding-bottom:13;
+border:black;
+}
+#namauser:hover{
+width:170;
+background-color:#946b30;
+margin-top:-50;
+margin-left:1050;
+font:15pt rockwell;
+padding-top:13;
+padding-bottom:13;
+border:black;
+}
+#logout{
+width:120;
+background-color:#cc9342;
+padding-top:14.5;
+padding-bottom:14.5;
+margin-top:-53;
+margin-left:1220;
+font:15pt rockwell;
+}
+
+#logout:hover{
+width:120;
+background-color:#946b30;
+padding-top:14.5;
+padding-bottom:14.5;
+margin-top:-53;
+margin-left:1220;
+font:15pt rockwell;
+}
+#gambar1{
+width:160;
+height:160;
+background-image:url(../img/antri.png);
+margin-left:420;
+margin-top:90;
+
+}
+
+#gambar1:hover{
+width:160;
+height:160;
+background-image:url(../img/antri-hover.png);
+margin-left:420;
+margin-top:90;
+
+}
+#gambar2{
+width:220;
+height:220;
+background-image:url(../img/data_pasien.png);
+margin-left:592;
+margin-top:-160;
+}
+#gambar2:hover{
+width:220;
+height:220;
+background-image:url(../img/data_pasien_hover.png);
+margin-left:592;
+margin-top:-160;
+}
+#gambar3{
+width:160;
+height:160;
+background-image:url(../img/caripasien.png);
+margin-left:420;
+margin-top:-42;
+}
+#gambar3:hover{
+width:160;
+height:160;
+background-image:url(../img/caripasien_hover.png);
+margin-left:420;
+margin-top:-42;
+}
+#gambar4{
+width:220;
+height:110;
+background-image:url(../img/akun-dokter.png);	
+margin-left:593;
+margin-top:-110;
+
+}
+#gambar4:hover{
+width:220;
+height:110;
+background-image:url(../img/data_dokter2.jpg);	
+margin-left:593;
+margin-top:-110;
+
+}
+#gambardokter{
+width:303;
+height:468;
+background-image:url(../img/dokter.png);
+margin-top:-282;
+margin-left:1063;
+}
+#introduc{
+width:295;
+height:100;
+margin-top:-524;
+margin-left:840;
+background-image:url(../img/introduc.png);
+}
+
+
+#pendaftaran{
+width:1016;
+height:475;
+background-color:white;
+margin-left:350;
+margin-top:65;
+}
+
+#cari{
+width:280;
+height:180;
+background-color:#acaaa8;
+margin-top:40;
+margin-left:50;
+border-radius:23px 23px 23px 23px;
+}
+#icon-cari{
+width:300;
+height:300;
+background-image:url(img/cari.png);
+margin-left:485;
+margin-top:20;
+position:absolute;
+}
+#gambarcari{
+width:424;
+height:425;
+background-image:url(../img/caridata.jpg);
+background-color:red;
+margin-top:-440;
+margin-left:450;
+location:absolute;
+}
+#konten{
+width:400;
+height:425;
+background-color:none;
+margin-left:40;
+overflow:auto;
+}
+
+#footer{
+width:350;
+height:30;
+background-color:#645947;
+margin-top:260;
+font-family:segoe ui;
+font-size:10pt;
+position:absolute;
+color:white;
+
+}

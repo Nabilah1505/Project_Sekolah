@@ -1,0 +1,125 @@
+a{
+color:black;
+text-decoration:none;
+}
+
+
+body {
+         margin:0;
+		 }
+
+#wrapper{
+         width:1366px;
+		 height:100%;
+		 margin:auto;
+		 }
+#menu{     width:350;
+           height:664;
+           background-color:#645947;		   
+}
+#logo{
+         width:350;
+		 height:80;
+		 background-image:url(../img/logo3.jpg);
+		 margin-top:-664;
+		 }
+.side ul{
+list-style:none;
+}
+.side li{
+font:15px comic sans ms;
+width:309;
+padding-top:20;
+padding-bottom:20;
+display:block;
+background-color:##645947;
+margin-top:0;
+margin-left:-39;
+padding-left:3%;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease; 
+}
+.side li:hover{
+background-color:#c09d6b;
+}
+.side a{
+text-decoration:none;
+color:white;
+-webkit-transition: all 0.2s ease-in-out;
+-moz-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out; 
+}
+
+
+.kepala{
+width:600;
+height:60;
+background-color:;
+margin-top:-280;
+margin-left:380;
+font:43px rockwell;
+}
+#foto{
+width:50;
+height:50;
+background-image:url(../img/bgdokter1.png);
+background-color:#cc9342;
+margin-left:1000;
+margin-top:-80;
+}
+
+#foto2{
+width:100;
+height:100;
+background-image:url(../img/bgdokter.png);
+background-color:#cc9342;
+position:absolute;
+visibility:hidden;
+}
+
+#foto:hover > #foto2{
+visibility:visible;
+}
+
+#namauser{
+width:170;
+background-color:#cc9342;
+margin-top:-50;
+margin-left:1050;
+font:15pt rockwell;
+padding-top:13;
+padding-bottom:13;
+border:black;
+}
+#namauser:hover{
+width:170;
+background-color:#946b30;
+margin-top:-50;
+margin-left:1050;
+font:15pt rockwell;
+padding-top:13;
+padding-bottom:13;
+border:black;
+}
+#logout{
+width:120;
+background-color:#cc9342;
+padding-top:14.5;
+padding-bottom:14.5;
+margin-top:-53;
+margin-left:1220;
+font:15pt rockwell;
+}
+
+#logout:hover{
+width:120;
+background-color:#946b30;
+padding-top:14.5;
+padding-bottom:14.5;
+margin-top:-53;
+margin-left:1220;
+font:15pt rockwell;
+}
